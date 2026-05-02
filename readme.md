@@ -84,12 +84,9 @@ Separei o sistema em funções para organizar melhor:
 
 ## 📁 Estrutura:
 Simulador-de-mercado/
+
 ├── index.html
-
 ├── login.html
-
 ├── script.js
-
 ├── login.js
-
 └── style.css
