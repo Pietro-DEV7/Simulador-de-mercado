@@ -1,8 +1,7 @@
-// Procura dados salvos anteriormente no navegador
+
 let carrinho = JSON.parse(localStorage.getItem("carrinhoMercado")) || [];
 let total = 0;
 
-// Atualiza a tela assim que o ficheiro carrega
 atualizar();
 
 function adicionar() {
