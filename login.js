@@ -7,7 +7,6 @@ function entrar() {
     return;
   }
 
-  // Simulação de sucesso
   alert("Login efetuado! Pagamento processado.");
   window.location.href = "index.html";
 }
