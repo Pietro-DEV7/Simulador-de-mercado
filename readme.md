@@ -1,73 +1,91 @@
-Mini Sistema de Mercado
+# 🛒 Mini Sistema de Mercado
 
-Esse projeto é um mini sistema de mercado que eu desenvolvi para treinar lógica de programação na prática.
+Esse projeto é um mini sistema de mercado desenvolvido para treinar lógica de programação na prática, evoluindo com funcionalidades simples como login de usuário.
 
-Sobre o projeto:
+---
+
+## 📌 Sobre o projeto:
 
 Aqui você consegue:
 
-Escolher produtos
-Definir a quantidade
-Adicionar ao carrinho
-Ver o total sendo calculado em tempo real
-Remover itens
-Limpar o carrinho
-Finalizar a compra (simulação)
+- Escolher produtos  
+- Definir a quantidade  
+- Adicionar ao carrinho  
+- Ver o total sendo calculado em tempo real  
+- Remover itens  
+- Limpar o carrinho  
+- Finalizar a compra (simulação)  
+- Fazer login antes de concluir a compra  
 
 Tudo isso usando apenas HTML, CSS e JavaScript.
 
- O que eu treinei aqui:
+---
 
-Esse projeto foi focado em treinar logica de pogramação, utilizei:
+## 🧠 O que eu treinei aqui:
 
-## Variáveis globais
+Esse projeto foi focado em treinar lógica de programação, utilizei:
+
+### Variáveis globais
 
 Usei para guardar o estado do sistema, como:
 
-- o carrinho
-- o total da compra
+- o carrinho  
+- o total da compra  
 
-## Variáveis locais
+### Variáveis locais
 
 Usei dentro das funções para pegar dados do usuário (produto, quantidade, etc).
 
-## If / Else:
+### If / Else
 
-validar se a quantidade é válida
-impedir valores inválidos
-limitar o máximo de 10 unidades por produto
+- validar se a quantidade é válida  
+- impedir valores inválidos  
+- limitar o máximo de 10 unidades por produto  
 
-## For
+### For / forEach
 
 Usei para percorrer o carrinho:
 
-listar os produtos
-calcular o total
-atualizar a tela
-## Funções
+- listar os produtos  
+- calcular o total  
+- atualizar a tela  
 
-- Separei o sistema em funções para organizar melhor:
+### Funções
 
-adicionar() → adiciona produto
-atualizar() → atualiza tudo na tela
-remover() → remove item
-limparCarrinho() → limpa tudo
-finalizarCompra() → simula uma compra
+Separei o sistema em funções para organizar melhor:
 
-## Tecnologias
-- HTML5
-- CSS3
-- JavaScript
+- `adicionar()` → adiciona produto  
+- `atualizar()` → atualiza tudo na tela  
+- `remover()` → remove item  
+- `limparCarrinho()` → limpa tudo  
+- `finalizarCompra()` → simula uma compra  
+- `entrar()` → simula login  
+- `voltar()` → retorna para a loja  
 
-## Como usar
-- Baixe ou clone o projeto
-- Abra o arquivo index.html no navegador
-- Escolha um produto
-- Digite a quantidade
-- Clique em Adicionar ao Carrinho
+---
 
-## Estrutura:
- mini-mercado/
- ├── index.html
- ├── style.css
- └── script.js
+## 🛠️ Tecnologias
+
+- HTML5  
+- CSS3  
+- JavaScript  
+
+---
+
+## 🚀 Como usar
+
+- Baixe ou clone o projeto  
+- Abra o arquivo `index.html` no navegador  
+- Escolha um produto  
+- Digite a quantidade  
+- Clique em **Adicionar ao Carrinho**  
+
+---
+
+## 📁 Estrutura:
+Simulador-de-mercado/
+├── index.html
+├── login.html
+├── script.js
+├── login.js
+└── style.css
