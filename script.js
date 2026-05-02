@@ -83,12 +83,10 @@ function finalizarCompra() {
     alert("O carrinho está vazio!");
     return;
   }
-  
-  // Limpa o carrinho antes de ir para o login
+
   carrinho = [];
   atualizar();
   
-  // Muda para a página de login
   window.location.href = "login.html";
 }
 
