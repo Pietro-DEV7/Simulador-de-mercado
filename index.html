@@ -12,56 +12,40 @@
   </header>
 
   <main class="container">
-
-
     <section class="card">
       <h2>Lista de Produtos</h2>
-
       <div class="lista">
         <p>Maçã - R$ 2.00</p>
         <p>Pão - R$ 1.50</p>
         <p>Leite - R$ 3.00</p>
       </div>
-
       <hr>
-
       <label>Produto:</label>
       <select id="produto">
         <option value="2">Maçã</option>
         <option value="1.5">Pão</option>
         <option value="3">Leite</option>
       </select>
-
       <label>Quantidade:</label>
       <input type="number" id="quantidade" min="1">
-
       <button class="btn azul" onclick="adicionar()">Adicionar ao Carrinho</button>
     </section>
 
     <section class="card">
       <h2>Carrinho de Compras</h2>
-
       <div id="vazio" class="vazio">Seu carrinho está vazio.</div>
-
       <ul id="listaCarrinho"></ul>
-
       <hr>
-
-      <p class="total">
-        Total: R$ <span id="total">0.00</span>
-      </p>
-
+      <p class="total">Total: R$ <span id="total">0.00</span></p>
       <button class="btn verde" onclick="finalizarCompra()">Finalizar Compra</button>
       <button class="btn vermelho" onclick="limparCarrinho()">Limpar Carrinho</button>
     </section>
-
   </main>
 
   <section class="resumo">
     <h2>Resumo da Compra</h2>
     <p>Itens: <span id="qtdItens">0</span></p>
     <p>Valor Total: R$ <span id="totalResumo">0.00</span></p>
-    <p class="msg">Adicione produtos ao carrinho...</p>
   </section>
 
   <script src="script.js"></script>

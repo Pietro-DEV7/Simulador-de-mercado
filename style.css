@@ -12,14 +12,12 @@ header {
   font-size: 24px;
 }
 
-
 .container {
   display: flex;
   justify-content: center;
   gap: 30px;
   margin: 30px;
 }
-
 
 .card {
   background: white;
@@ -50,17 +48,9 @@ select, input {
   font-weight: bold;
 }
 
-.azul {
-  background: #2d6cdf;
-}
-
-.verde {
-  background: #28a745;
-}
-
-.vermelho {
-  background: #dc3545;
-}
+.azul { background: #2d6cdf; }
+.verde { background: #28a745; }
+.vermelho { background: #dc3545; }
 
 .vazio {
   background: #eee;
@@ -70,9 +60,7 @@ select, input {
   margin-bottom: 10px;
 }
 
-.total {
-  font-weight: bold;
-}
+.total { font-weight: bold; }
 
 .resumo {
   background: white;
@@ -82,7 +70,5 @@ select, input {
   border: 1px solid #ddd;
 }
 
-.msg {
-  color: gray;
-  font-style: italic;
-}
+.msg { color: gray; font-style: italic; }
+
