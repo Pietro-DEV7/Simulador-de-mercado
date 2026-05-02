@@ -1,10 +1,10 @@
-# 🛒 Mini Sistema de Mercado
+#  Mini Sistema de Mercado
 
 Esse projeto é um mini sistema de mercado desenvolvido para treinar lógica de programação na prática, evoluindo com funcionalidades simples como login de usuário.
 
 ---
 
-## 📌 Sobre o projeto:
+## Sobre o projeto:
 
 Aqui você consegue:
 
@@ -21,7 +21,7 @@ Tudo isso usando apenas HTML, CSS e JavaScript.
 
 ---
 
-## 🧠 O que eu treinei aqui:
+## O que eu treinei aqui:
 
 Esse projeto foi focado em treinar lógica de programação, utilizei:
 
@@ -64,7 +64,7 @@ Separei o sistema em funções para organizar melhor:
 
 ---
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - HTML5  
 - CSS3  
@@ -72,7 +72,7 @@ Separei o sistema em funções para organizar melhor:
 
 ---
 
-## 🚀 Como usar
+##  Como usar
 
 - Baixe ou clone o projeto  
 - Abra o arquivo `index.html` no navegador  
@@ -85,7 +85,11 @@ Separei o sistema em funções para organizar melhor:
 ## 📁 Estrutura:
 Simulador-de-mercado/
 ├── index.html
+
 ├── login.html
+
 ├── script.js
+
 ├── login.js
+
 └── style.css
