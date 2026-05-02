@@ -1,6 +1,4 @@
-🔥
-
-📦 Mini Sistema de Mercado
+Mini Sistema de Mercado
 
 Esse projeto é um mini sistema de mercado que eu desenvolvi para treinar lógica de programação na prática.
 
