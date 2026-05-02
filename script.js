@@ -1,4 +1,3 @@
-
 let carrinho = JSON.parse(localStorage.getItem("carrinhoMercado")) || [];
 let total = 0;
 
