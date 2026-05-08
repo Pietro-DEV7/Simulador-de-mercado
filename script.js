@@ -62,7 +62,6 @@ function atualizar() {
   document.getElementById("totalResumo").textContent = total.toFixed(2);
   document.getElementById("qtdItens").textContent = carrinho.length;
 
-  // Guarda o carrinho atual no "banco de dados" do navegador
   localStorage.setItem("carrinhoMercado", JSON.stringify(carrinho));
 }
 
